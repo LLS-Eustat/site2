@@ -19,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/site2/1-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -227,7 +227,7 @@
           "description": "",
           "keywords": "",
           "href": "/site2/2-c-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -831,11 +831,11 @@
         },
         {
           "id": "7-b-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "Installed renewable energy-generating capacity in developing and developed countries (in watts per capita)",
           "description": "",
           "keywords": "",
           "href": "/site2/7-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -883,7 +883,7 @@
           "description": "",
           "keywords": "",
           "href": "/site2/8-4-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-1",
