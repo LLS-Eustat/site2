@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: The Basque Country #Australia
+  adjective: Basque #Australian
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -56,9 +56,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: l-lantaron@eustat.eus #test@example.com
+  suggestions: l-lantaron@eustat.eus #test@example.com
+  functional: l-lantaron@eustat.eus #test@example.com
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -66,9 +66,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: https://x.com/eustat #'https://twitter.com/MyTwitterAccount'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: https://www.facebook.com/eustat #'https://facebook.com/MyFacebookAccount'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -79,7 +79,7 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: Sección 1: Lorem ipsum
     content: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
       cursus est sed dapibus.
@@ -87,7 +87,7 @@ frontpage_cards:
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
-  - title: Nam vestibulum
+  - title: Sección 2: Nam vestibulum
     content: |
       Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
@@ -96,7 +96,7 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: Datos LLS-PoC para los ODS2030 #frontpage.heading_short
+  title: Datos PoC-E para los ODS2030 #frontpage.heading_short
   description: Elige el objetivo #frontpage.instructions_shorter
 frontpage_introduction_banner:
   title: frontpage.intro_title
