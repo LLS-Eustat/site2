@@ -156,7 +156,7 @@ indicator_tabs:
 languages:
 #Orden según Web EUSTAT
   - es
-  - eu
+  #- eu
   - en
 languages_public: []
 logos: []
