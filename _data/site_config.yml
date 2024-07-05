@@ -89,7 +89,7 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Seccion 1: Lorem ipsum
+  - title: Sección 1 Lorem ipsum
     content: |
       Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
       cursus est sed dapibus.
@@ -97,7 +97,7 @@ frontpage_cards:
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
-  - title: Sección 2: Nam vestibulum
+  - title: Sección 2 Nam vestibulum
     content: |
       Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
