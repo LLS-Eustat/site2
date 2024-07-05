@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site2/assets/css/style.css?v=20240705103312">
+        <link rel="stylesheet" href="/site2/assets/css/style.css?v=20240705105020">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -189,7 +189,7 @@ layout-post
 <header role="banner" class="">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/site2/en/" id="home" aria-label="Go to homepage" title="Go to homepage">
+            <a class="navbar-brand" href="/site2/" id="home" aria-label="Go to homepage" title="Go to homepage">
     <img src="/site2/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Show navigation menu">
@@ -198,22 +198,22 @@ layout-post
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site2/en/">Home</a>
+    <a class="nav-link" href="/site2/">Home</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/en/goals">Goals</a>
+    <a class="nav-link" href="/site2/goals">Goals</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/en/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site2/reporting-status">Reporting Status</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/en/news">Updates</a>
+    <a class="nav-link" href="/site2/news">Updates</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/en/faq">FAQ</a>
+    <a class="nav-link" href="/site2/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/en/about">About</a>
+    <a class="nav-link" href="/site2/about">About</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
-                    <form class="align-self-lg-end" id="search" action="/site2/en/search/">
+                    <form class="align-self-lg-end" id="search" action="/site2/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Search</label>
         <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
@@ -232,20 +232,27 @@ layout-post
 
 
 
-  <div class="language-toggle-container d-flex">
-    <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site2/test-post-1/">
-                Español
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      English
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/site2/es/test-post-1/">
+              Español
             </a>
-        </li></ul>
+          </li></ul>
+  </div>
 </div>
+
 
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site2/test-post-1/">
+            <a class="language-toggle-link" href="/site2/es/test-post-1/">
                 Español
             </a>
         </li></ul>
@@ -268,10 +275,10 @@ data-event-label="high"
 <nav>
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
     <li class="breadcrumb-item">
-            <a href="/site2/en/">Home</a>
+            <a href="/site2/">Home</a>
         </li>
     <li class="breadcrumb-item">
-            <a href="/site2/en/news">Updates</a>
+            <a href="/site2/news">Updates</a>
         </li>
     
     </ol>
@@ -324,7 +331,7 @@ data-event-label="high"
                         </li>
                         
                         <li>
-                            <a href="/site2/en/contact-us">Contact us</a>
+                            <a href="/site2/contact-us">Contact us</a>
                             
                         </li>
                         <li>
@@ -338,16 +345,41 @@ data-event-label="high"
                             
                         </li>
                         <li>
-                            <a href="/site2/en/about/cookies-and-privacy/">Cookies</a>
+                            <a href="/site2/about/cookies-and-privacy/">Cookies</a>
                             
                         </li>
                         
                         
                         
                         <li>
-                            <a href="/site2/en/config">Configuration</a>
+                            <a href="/site2/config">Configuration</a>
                         </li>
-                        </ul>
+                        <li class="language-toggle-menu-footer">
+                            
+
+
+
+
+
+  <div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
+            <a class="language-toggle-link" href="/site2/es/test-post-1/">
+                Español
+            </a>
+        </li></ul>
+</div>
+
+
+                            <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
+            <a class="language-toggle-link" href="/site2/es/test-post-1/">
+                Español
+            </a>
+        </li></ul>
+</div></span>
+                        </li></ul>
                 </div>
             </div>
         </div>
@@ -543,12 +575,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site2/assets/js/sdg.js?v=20240705103312'></script>
+<script src='/site2/assets/js/sdg.js?v=20240705105020'></script>
 
 
     
     
-    <script src="/site2/assets/js/custom.js?v=20240705103312"></script><script>
+    <script src="/site2/assets/js/custom.js?v=20240705105020"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
