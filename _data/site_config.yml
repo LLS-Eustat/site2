@@ -22,8 +22,9 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: The Basque Country #Australia
-  adjective: Basque #Australian
+#Info del país
+  name: The Basque Country
+  adjective: Basque
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -56,23 +57,32 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: l-lantaron@eustat.eus #test@example.com
-  suggestions: l-lantaron@eustat.eus #test@example.com
-  functional: l-lantaron@eustat.eus #test@example.com
+#Probando con mi mail
+  questions: l-lantaron@eustat.eus
+  suggestions: l-lantaron@eustat.eus
+  functional: l-lantaron@eustat.eus
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
+#Redes de EUSTAT -> ¿?Añadir YT; linkedin -> ¿?Es posible cambiar el texto por los iconos¿?
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: https://x.com/eustat #'https://twitter.com/MyTwitterAccount'
+  - path: https://x.com/eustat
     translation_key: general.twitter
-  - path: https://www.facebook.com/eustat #'https://facebook.com/MyFacebookAccount'
+  - path: https://www.facebook.com/eustat
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+  #- path: https://www.youtube.com/user/eustat1986
+   # translation_key: general.youtube
+  #- path: https://es.linkedin.com/company/eustat
+   # translation_key: general.linkedin
+  #- path: https://www.eustat.eus/indice.html
+   # translation_key: general.web
 frontpage_cards:
+#Texto añadido
   - title: frontpage.download_all
     content: ''
     include: components/download-all-data.html
@@ -81,7 +91,7 @@ frontpage_cards:
     rule_color: ''
   - title: Sección 1: Lorem ipsum
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+      Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
       cursus est sed dapibus.
     include: ''
     button_label: Read more
@@ -89,15 +99,16 @@ frontpage_cards:
     rule_color: ''
   - title: Sección 2: Nam vestibulum
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+      Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: Datos PoC-E para los ODS2030 #frontpage.heading_short
-  description: Elige el objetivo #frontpage.instructions_shorter
+#Encabezado el grid de objetivos
+  title: Datos PoC-Eustat para los ODS2030
+  description: Elige el objetivo
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
@@ -112,7 +123,8 @@ graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
-header_language_toggle: dropdown
+#Cambio en el tipo de selector de idiomas
+header_language_toggle: links
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
@@ -142,8 +154,10 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
+#Orden según Web EUSTAT
   - es
+  - eu
+  - en
 languages_public: []
 logos: []
 map_layers: []
@@ -222,7 +236,8 @@ progressive_web_app:
 proxy_indicators:
   label: ''
   description: ''
-remote_data_prefix: 'https://uxuss.github.io/data2/'
+#Página Web de datos
+remote_data_prefix: 'https://lls-poc.github.io/data2/'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -238,7 +253,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/UxuSS/data2'
+#Repositorios de datos y site
+repository_url_data: 'https://github.com/LLS-PoC/data2'
 repository_url_site: 'https://github.com/LLS-PoC/site2'
 search_index_boost: []
 search_index_extra_fields: []
@@ -252,7 +268,8 @@ time_series_attributes:
     label: indicator.footnote
   - field: DATA_LAST_UPDATE
     label: metadata_fields.national_data_update_url
-use_new_config_forms: false
+#Cambio de la sección de configuración
+use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
