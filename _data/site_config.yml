@@ -64,7 +64,7 @@ email_contacts:
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
-footer_language_toggle: none
+footer_language_toggle: links
 footer_menu:
 #Redes de EUSTAT -> ¿?Añadir YT; linkedin -> ¿?Es posible cambiar el texto por los iconos¿?
   - path: /contact-us
@@ -97,7 +97,7 @@ frontpage_cards:
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
-  - title: Sección 2 Nam vestibulum
+  - title: 'Sección 2: Nam vestibulum'
     content: |
       Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
@@ -124,7 +124,7 @@ graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
 #Cambio en el tipo de selector de idiomas
-header_language_toggle: links
+header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
@@ -154,10 +154,10 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-#Orden según Web EUSTAT
+#Orden según Web EUSTAT=> NO; el primero es la página en EN; el segundo en ES
+  - en
   - es
   #- eu
-  - en
 languages_public: []
 logos: []
 map_layers: []
