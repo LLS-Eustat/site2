@@ -89,7 +89,7 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Sección 1: Lorem ipsum
+  - title: Seccion 1: Lorem ipsum
     content: |
       Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
       cursus est sed dapibus.
