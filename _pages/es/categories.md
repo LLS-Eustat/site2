@@ -1,8 +1,8 @@
 ---
-layout: categories
+layout: Categorías
 permalink: /es/categories/
 title: Categories
 language: es
 ---
 
-Translation needed.
+bla bla bla ...

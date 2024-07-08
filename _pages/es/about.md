@@ -1,5 +1,5 @@
 ---
-title: About
+title: Acerca de EUSTAT
 permalink: /es/about/
 layout: page
 language: es

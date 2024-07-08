@@ -1,8 +1,14 @@
 ---
-title: Frequently Asked Questions (FAQ)
+title: Preguntas más frecuentes (FAQ)
 permalink: /es/faq/
 layout: page
 language: es
 ---
 
-Translation needed.
+FAQ: Preguntas más frecuentes
+
+En este apartado hemos recogido las preguntas más frecuentes que se reciben en el servicio de información, así como las respuestas. Esperamos de esta forma poder resolver un número elevado de dudas a nuestros usuarios y usuarias.
+
+Si no encuentra en esta página la respuesta a su pregunta, no dude en comunicarse con Eustat a través de este formulario electrónico. Intentaremos ofrecerle una respuesta en el plazo máximo de tres días laborables.
+
+https://www.eustat.eus/faq_c.html
