@@ -107,8 +107,8 @@ frontpage_cards:
     rule_color: ''
 frontpage_goals_grid:
 #Encabezado el grid de objetivos
-  title: Datos PoC-Eustat para los ODS2030
-  description: Elige el objetivo
+  title: frontpage.heading_short
+  description: frontpage.instructions_shorter
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
