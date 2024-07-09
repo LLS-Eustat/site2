@@ -157,7 +157,7 @@ languages:
 #Orden según Web EUSTAT=> NO; el primero es la página en EN; el segundo en ES
   - en
   - es
-  #- eu
+  - eu
 languages_public: []
 logos: []
 map_layers: []
