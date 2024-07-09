@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="eu" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://lls-poc.github.io/data2/en',
+  remoteDataBaseUrl: 'https://lls-poc.github.io/data2/eu',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -42,7 +42,7 @@ var opensdg = {
   // Disaggregations which should be ignored on indicator pages.
   ignoredDisaggregations: null,
 
-  language: 'en',
+  language: 'eu',
 
   mapColors: {
     "default": [
@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>EUSTATi buruz - Indicators For The Sustainable Development Goals</title>
+    <title>EUSTATi buruz - Garapen Jasangarrirako Helburuen adierazleak</title>
 
 
 
@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site2/assets/css/style.css?v=20240709111734">
+        <link rel="stylesheet" href="/site2/assets/css/style.css?v=20240709112159">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -161,25 +161,25 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-eu
 layout-page
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","hide_menu":"Hide navigation menu","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","logo_title":"Go to homepage","show_menu":"Show navigation menu","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"Alpha":"Alfa","default_contrast":"Kontraste estandarra","disable_high_kontrast":"Desaktibatu kontraste handia","disclaimer":"Webgune hau garapen egoeran dago. Eskerrik asko zure <a href=\"mailto:%email_contacts.suggestions\">iruzkinengatik</a>.","enable_high_kontrast":"Kontraste handia gaitu","hide_menu":"Ezkutatu nabigazio-menua","high_contrast":"Kontraste handia","internet_explorer_message":"webgune hau bisitatzeko Internet Explorer erabiltzen ari zarela antzeman dugu. Microsoft orain Internet Explorer ezabatzen ari da. Ondorioz, webgune hau ez da bateragarria Internet Explorer-en inongo bertsiorekin. Gune honen ezaugarri batzuek ez dute funtzionatuko. Nabigatzaile moderno bat erabili behar duzu, hala nola Edge, Chrome, Firefox edo Safari. Beste nabigatzaile bat instalatzeko edo erabiltzeko zailtasunak badituzu, zure IT ekipoarekin harremanetan jarri.","internet_explorer_message_title":"Interneteko nabigatzaile hau jada ez da bateragarria","logo_title":"Joan hasierako orrira","show_menu":"Erakutsi nabigazio-menua","skip_link":"Eduki nagusira joan","tag_line":"17 Gure mundua eraldatzeko helburuak","toggle_menu":"Txandakatu menua. Egin klik menua zabaltzeko edo uzkurtzeko.","toggle_search":"Bilaketa-barra. Egin klik bilaketa-barra handitzeko edo murrizteko."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Eduki nagusira joan</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
-    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+    <h2 class="internet-explorer-message-title">Interneteko nabigatzaile hau jada ez da bateragarria</h2>
+    <p class="internet-explorer-message-body">webgune hau bisitatzeko Internet Explorer erabiltzen ari zarela antzeman dugu. Microsoft orain Internet Explorer ezabatzen ari da. Ondorioz, webgune hau ez da bateragarria Internet Explorer-en inongo bertsiorekin. Gune honen ezaugarri batzuek ez dute funtzionatuko. Nabigatzaile moderno bat erabili behar duzu, hala nola Edge, Chrome, Firefox edo Safari. Beste nabigatzaile bat instalatzeko edo erabiltzeko zailtasunak badituzu, zure IT ekipoarekin harremanetan jarri.</p>
 </div>
 <div id="disclaimer">
     
 <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:l-lantaron@eustat.eus">feedback</a>.
+    Webgune hau garapen egoeran dago. Eskerrik asko zure <a href="mailto:l-lantaron@eustat.eus">iruzkinengatik</a>.
     
   </div>
 </div>
@@ -189,36 +189,36 @@ layout-page
 <header role="banner" class="">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/site2/" id="home" aria-label="Go to homepage" title="Go to homepage">
-    <img src="/site2/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+            <a class="navbar-brand" href="/site2/eu/" id="home" aria-label="Joan hasierako orrira" title="Joan hasierako orrira">
+    <img src="/site2/assets/img/SDG_logo.png" alt="Garapen Jasangarriko Helburuak - 17 Gure mundua eraldatzeko helburuak" />
 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Show navigation menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Erakutsi nabigazio-menua">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site2/">Home</a>
+    <a class="nav-link" href="/site2/eu/">Hasiera</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/goals">Goals</a>
+    <a class="nav-link" href="/site2/eu/goals">Helburuak</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site2/eu/reporting-status">Informazioaren egoera</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/news">Updates</a>
+    <a class="nav-link" href="/site2/eu/news">menu.updates</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/faq">FAQ</a>
+    <a class="nav-link" href="/site2/eu/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site2/about">About</a>
+    <a class="nav-link" href="/site2/eu/about">Honi buruz</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
-                    <form class="align-self-lg-end" id="search" action="/site2/search/">
+                    <form class="align-self-lg-end" id="search" action="/site2/eu/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Bilatu</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Bilatu">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Site search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Bilatu web-orrian" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -237,10 +237,14 @@ layout-page
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      English
+      Euskera
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site2/es/eu/about/">
+            <a class="dropdown-item" href="/site2/about/">
+              English
+            </a>
+          </li><li>
+            <a class="dropdown-item" href="/site2/es/about/">
               Español
             </a>
           </li></ul>
@@ -251,12 +255,20 @@ layout-page
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site2/es/eu/about/">
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site2/about/">
+                English
+            </a>
+        </li><li class="language-option-es list-inline-item">
+            <a class="language-toggle-link" href="/site2/es/about/">
                 Español
             </a>
+        </li><li class="language-option-eu list-inline-item">
+            <span class="language-toggle-active-language">
+                Euskera
+            </span>
         </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+</div></span><a title="" aria-label=""
     data-contrast-switch-to="" role="button" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -274,7 +286,7 @@ data-event-label="high"
     <nav>
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         <li class="breadcrumb-item" >
-            <a href="/site2/">Home</a>
+            <a href="/site2/eu/">Hasiera</a>
         </li>
         <li class="breadcrumb-item active">EUSTATi buruz</li>
     </ol>
@@ -322,11 +334,11 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                            <a href="https://open-sdg.org">Open SDG erabiliz eraikia</a>
                         </li>
                         
                         <li>
-                            <a href="/site2/contact-us">Contact us</a>
+                            <a href="/site2/eu/contact-us">Kontaktatu</a>
                             
                         </li>
                         <li>
@@ -340,14 +352,14 @@ data-event-label="high"
                             
                         </li>
                         <li>
-                            <a href="/site2/about/cookies-and-privacy/">Cookies</a>
+                            <a href="/site2/eu/about/cookies-and-privacy/">Cookieak</a>
                             
                         </li>
                         
                         
                         
                         <li>
-                            <a href="/site2/config">Configuration</a>
+                            <a href="/site2/eu/config">Configuration</a>
                         </li>
                         <li class="language-toggle-menu-footer">
                             
@@ -358,20 +370,36 @@ data-event-label="high"
 
   <div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site2/es/eu/about/">
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site2/about/">
+                English
+            </a>
+        </li><li class="language-option-es list-inline-item">
+            <a class="language-toggle-link" href="/site2/es/about/">
                 Español
             </a>
+        </li><li class="language-option-eu list-inline-item">
+            <span class="language-toggle-active-language">
+                Euskera
+            </span>
         </li></ul>
 </div>
 
 
                             <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site2/es/eu/about/">
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site2/about/">
+                English
+            </a>
+        </li><li class="language-option-es list-inline-item">
+            <a class="language-toggle-link" href="/site2/es/about/">
                 Español
             </a>
+        </li><li class="language-option-eu list-inline-item">
+            <span class="language-toggle-active-language">
+                Euskera
+            </span>
         </li></ul>
 </div></span>
                         </li></ul>
@@ -454,63 +482,63 @@ var klaroConfig = {
     ],
 };
 
-  klaroConfig.lang = 'en';
+  klaroConfig.lang = 'eu';
 klaroConfig.translations = {
-    en: {
-        acceptAll: "Accept all",
-        acceptSelected: "Accept selected",
-        close: "Close",
+    eu: {
+        acceptAll: null,
+        acceptSelected: null,
+        close: null,
         consentModal: {
-            description: "Here you can change which cookies you're happy for us to use.",
-            title: "Cookie settings",
+            description: null,
+            title: null,
         },
         consentNotice: {
-            changeDescription: "The cookies used on this site have changed since you last visited, please renew your consent.",
-            description: "We use some essential cookies to make this service work. We’d also like to use {purposes} so we can understand how you use the service and make improvements.",
-            learnMore: "View cookies",
-            testing: "Testing mode!",
+            changeDescription: null,
+            description: null,
+            learnMore: null,
+            testing: null,
         },
         contextualConsent: {
-            acceptAlways: "Always",
-            acceptOnce: "Yes",
-            description: "Do you want to load external content supplied by {title}?",
+            acceptAlways: null,
+            acceptOnce: null,
+            description: null,
         },
-        decline: "Reject additional cookies",
-        ok: "Accept additional cookies",
-        poweredBy: "Realized with Klaro!",
+        decline: null,
+        ok: null,
+        poweredBy: null,
         privacyPolicy: {
-            name: "privacy policy",
-            text: "To learn more, please read our privacy policy.",
+            name: null,
+            text: null,
         },
         purposeItem: {
-            service: "service",
-            services: "services",
+            service: null,
+            services: null,
         },
         purposes: {
             functional: {
-                description: "Essential cookies keep your information secure, and do things like remember your preferences and the choices you make whilst you use the website. They always need to be on.",
-                title: "Essential cookies",
+                description: null,
+                title: null,
             },
             analytics: {
-                description: "These services collect information about how you use the website. We use this data to help make the website better.",
-                title: "Analytics cookies",
+                description: null,
+                title: null,
             },
         },
-        save: "Save",
+        save: null,
         service: {
             disableAll: {
-                description: "Use this switch to enable or disable all services.",
-                title: "Enable or disable all services",
+                description: null,
+                title: null,
             },
             optOut: {
-                description: "This services is loaded by default (but you can opt out)",
-                title: "(opt-out)",
+                description: null,
+                title: null,
             },
-            purpose: "purpose",
-            purposes: "purposes",
+            purpose: null,
+            purposes: null,
             required: {
-                description: "This service is always required",
-                title: "(always required)",
+                description: null,
+                title: null,
             },
         },
     },
@@ -522,33 +550,33 @@ klaroConfig.services.forEach(function(service) {
     }
     if (service.name === 'contrast') {
         service.translations = {
-            en: {
-                description: "Retains active state of accessibility services",
-                title: "Accessibility mode",
+            eu: {
+                description: null,
+                title: null,
             },
         }
     }
     else if (service.name === 'cookie_settings') {
         service.translations = {
-            en: {
-                description: "Saves your cookie consent settings",
-                title: "Cookie settings",
+            eu: {
+                description: null,
+                title: null,
             },
         }
     }
     else if (service.name === 'google-analytics') {
         service.translations = {
-            en: {
-                description: "Collects information about page visits using Google Analytics",
-                title: "Google Analytics",
+            eu: {
+                description: null,
+                title: null,
             },
         }
     }
 });
 
 if (allRequired) {
-    klaroConfig.translations['en'].consentNotice.description = "We use some essential cookies to make this service work. They always need to be on.";
-    klaroConfig.translations['en'].ok = "OK";
+    klaroConfig.translations['eu'].consentNotice.description = null;
+    klaroConfig.translations['eu'].ok = null;
     klaroConfig.hideDeclineAll = true;
     klaroConfig.hideLearnMore = true;
 }
@@ -556,7 +584,7 @@ if (allRequired) {
 </script>
 <script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 <script>translations['cookies'] = translations['cookies'] || {};
-    translations['cookies']['cookie_settings'] = 'Cookie settings';</script>
+    translations['cookies']['cookie_settings'] = '';</script>
 
 
 
@@ -565,17 +593,17 @@ if (allRequired) {
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ezkutatu';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Bilatu';</script>
 
-<script src='/site2/assets/js/sdg.js?v=20240709111734'></script>
+<script src='/site2/assets/js/sdg.js?v=20240709112159'></script>
 
 
     
     
-    <script src="/site2/assets/js/custom.js?v=20240709111734"></script><script>
+    <script src="/site2/assets/js/custom.js?v=20240709112159"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
