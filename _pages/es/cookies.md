@@ -6,9 +6,9 @@ language: es
 ---
 
 Privacidad
-==========
+----------
 
-1. Tratamiento de datos personales
+###1. Tratamiento de datos personales
 ----------------------------------
 
 El Eustat Euskal Estatistika Erakundea / Instituto Vasco de Estadística trata datos de carácter personal en el 

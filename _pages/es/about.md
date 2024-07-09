@@ -6,7 +6,7 @@ language: es
 ---
 
 Bienvenida del Director
-=======================
+-----------------------
 
 Quiero darles la bienvenida al Instituto Vasco de Estadística-Eustat, organismo público de la Comunidad Autónoma de Euskadi que produce información estadística de calidad destinada a las administraciones públicas vascas, a los agentes sociales y a la sociedad.
 
