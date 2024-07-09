@@ -26,6 +26,6 @@ Por ello, le agradecemos su confianza, que cuente con nosotros y que se adentre 
 
 *Director General*
 
-*Curriculum Vitae*
+[*Curriculum Vitae*](https://www.irekia.euskadi.eus/es/politicians/163-josu-mirena-iradi-arrieta)
 
 Para más información visite: [Eustat - Organización](https://www.eustat.eus/about/a_eustat_c.html)

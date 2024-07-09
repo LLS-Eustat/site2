@@ -1,11 +1,11 @@
 ---
 layout: News
-title: Noticias
-permalink: /es/news/
-language: es
+title: Prentsa Zerbitzua
+permalink: /eu/news/
+language: eu
 ---
 
-Servicio de Prensa
+Prentsa Zerbitzua
 ==================
 
 (https://www.eustat.eus/notas_c.html)
