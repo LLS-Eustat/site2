@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://lls-poc.github.io/data2/en',
+  remoteDataBaseUrl: 'https://lls-poc.github.io/data2/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -42,7 +42,7 @@ var opensdg = {
   // Disaggregations which should be ignored on indicator pages.
   ignoredDisaggregations: null,
 
-  language: 'en',
+  language: 'es',
 
   mapColors: {
     "default": [
@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Page not found - Indicators For The Sustainable Development Goals</title>
+    <title>Page not found - Indicadores para los Objetivos de Desarrollo Sostenible</title>
 
 
 
@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site2/assets/css/style.css?v=20240709082852">
+        <link rel="stylesheet" href="/site2/assets/css/style.css?v=20240709084230">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -161,7 +161,7 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-es
 layout-page-not-found
 ">
 <!-- <div class="container"> -->
@@ -170,11 +170,12 @@ layout-page-not-found
 <div id="main-content" class="container" role="main">
     <div>
         <h1>Page not found</h1>
-        <p>If you typed the web address, check it is correct.</p>
+        <p>Si has escrito la dirección Web, por favor, comprueba que es correcta</p>
 
-<p>If you pasted the web address, check you copied the entire address.</p>
+<p>Si has copiado la dirección Web, por favor, comprueba que has copiado la dirección completa</p>
 
-<p>If the web address is correct or you selected a link or button, contact us if you need to speak to someone about the Sustainable Development Goals (SDGs).</p>
+<p>Si la dirección Web es correcta o has seleccionado un enlace o botón, por favor, contacta con nosotros si necesitas hablar con alguien sobre los ODS</p>
+
 
     </div>
 </div>
@@ -250,63 +251,63 @@ var klaroConfig = {
     ],
 };
 
-  klaroConfig.lang = 'en';
+  klaroConfig.lang = 'es';
 klaroConfig.translations = {
-    en: {
-        acceptAll: "Accept all",
-        acceptSelected: "Accept selected",
-        close: "Close",
+    es: {
+        acceptAll: null,
+        acceptSelected: null,
+        close: null,
         consentModal: {
-            description: "Here you can change which cookies you're happy for us to use.",
-            title: "Cookie settings",
+            description: null,
+            title: null,
         },
         consentNotice: {
-            changeDescription: "The cookies used on this site have changed since you last visited, please renew your consent.",
-            description: "We use some essential cookies to make this service work. We’d also like to use {purposes} so we can understand how you use the service and make improvements.",
-            learnMore: "View cookies",
-            testing: "Testing mode!",
+            changeDescription: null,
+            description: null,
+            learnMore: null,
+            testing: null,
         },
         contextualConsent: {
-            acceptAlways: "Always",
-            acceptOnce: "Yes",
-            description: "Do you want to load external content supplied by {title}?",
+            acceptAlways: null,
+            acceptOnce: null,
+            description: null,
         },
-        decline: "Reject additional cookies",
-        ok: "Accept additional cookies",
-        poweredBy: "Realized with Klaro!",
+        decline: null,
+        ok: null,
+        poweredBy: null,
         privacyPolicy: {
-            name: "privacy policy",
-            text: "To learn more, please read our privacy policy.",
+            name: null,
+            text: null,
         },
         purposeItem: {
-            service: "service",
-            services: "services",
+            service: null,
+            services: null,
         },
         purposes: {
             functional: {
-                description: "Essential cookies keep your information secure, and do things like remember your preferences and the choices you make whilst you use the website. They always need to be on.",
-                title: "Essential cookies",
+                description: null,
+                title: null,
             },
             analytics: {
-                description: "These services collect information about how you use the website. We use this data to help make the website better.",
-                title: "Analytics cookies",
+                description: null,
+                title: null,
             },
         },
-        save: "Save",
+        save: null,
         service: {
             disableAll: {
-                description: "Use this switch to enable or disable all services.",
-                title: "Enable or disable all services",
+                description: null,
+                title: null,
             },
             optOut: {
-                description: "This services is loaded by default (but you can opt out)",
-                title: "(opt-out)",
+                description: null,
+                title: null,
             },
-            purpose: "purpose",
-            purposes: "purposes",
+            purpose: null,
+            purposes: null,
             required: {
-                description: "This service is always required",
-                title: "(always required)",
+                description: null,
+                title: null,
             },
         },
     },
@@ -318,33 +319,33 @@ klaroConfig.services.forEach(function(service) {
     }
     if (service.name === 'contrast') {
         service.translations = {
-            en: {
-                description: "Retains active state of accessibility services",
-                title: "Accessibility mode",
+            es: {
+                description: null,
+                title: null,
             },
         }
     }
     else if (service.name === 'cookie_settings') {
         service.translations = {
-            en: {
-                description: "Saves your cookie consent settings",
-                title: "Cookie settings",
+            es: {
+                description: null,
+                title: null,
             },
         }
     }
     else if (service.name === 'google-analytics') {
         service.translations = {
-            en: {
-                description: "Collects information about page visits using Google Analytics",
-                title: "Google Analytics",
+            es: {
+                description: null,
+                title: null,
             },
         }
     }
 });
 
 if (allRequired) {
-    klaroConfig.translations['en'].consentNotice.description = "We use some essential cookies to make this service work. They always need to be on.";
-    klaroConfig.translations['en'].ok = "OK";
+    klaroConfig.translations['es'].consentNotice.description = null;
+    klaroConfig.translations['es'].ok = null;
     klaroConfig.hideDeclineAll = true;
     klaroConfig.hideLearnMore = true;
 }
@@ -352,7 +353,7 @@ if (allRequired) {
 </script>
 <script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 <script>translations['cookies'] = translations['cookies'] || {};
-    translations['cookies']['cookie_settings'] = 'Cookie settings';</script>
+    translations['cookies']['cookie_settings'] = '';</script>
 
 
 
@@ -361,17 +362,17 @@ if (allRequired) {
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site2/assets/js/sdg.js?v=20240709082852'></script>
+<script src='/site2/assets/js/sdg.js?v=20240709084230'></script>
 
 
     
     
-    <script src="/site2/assets/js/custom.js?v=20240709082852"></script><script>
+    <script src="/site2/assets/js/custom.js?v=20240709084230"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
