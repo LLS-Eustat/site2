@@ -10,10 +10,13 @@ language: es
 
 Eustat es el organismo público que desarrolla, produce y difunde información estadística oficial de la C.A. de Euskadi
 
-:office:	c/Donostia - San Sebastián, 1
-			01010 Vitoria-Gasteiz
-:telephone:	Tfno: (+34) 945017500
-:fax:		Fax: (+34) 945017501
-:email:		webmaster_eustat@eustat.eus
+c/Donostia - San Sebastián, 1
+01010 Vitoria-Gasteiz
 
-:globe_with_meridians:	https://www.eustat.eus/indice.html
+Tfno: 		(+34) 945017500
+
+Fax: 		(+34) 945017501
+
+Email: 		webmaster_eustat@eustat.eus
+
+WebSite:	[www.eustat.eus](https://www.eustat.eus/indice.html)

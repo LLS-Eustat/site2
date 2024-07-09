@@ -5,7 +5,8 @@ layout: page
 language: es
 ---
 
-#Bienvenida del Director
+Bienvenida del Director
+=======================
 
 Quiero darles la bienvenida al Instituto Vasco de Estadística-Eustat, organismo público de la Comunidad Autónoma de Euskadi que produce información estadística de calidad destinada a las administraciones públicas vascas, a los agentes sociales y a la sociedad.
 
@@ -22,7 +23,9 @@ Con este compromiso, Eustat y sus profesionales harán un importante esfuerzo y 
 Por ello, le agradecemos su confianza, que cuente con nosotros y que se adentre en este servidor de Eustat, en la seguridad de que podremos facilitarle la información que necesite.
 
 *Josu Iradi Arrieta*
+
 *Director General*
+
 *Curriculum Vitae*
 
-Para más información visite[Eustat - Organización](https://www.eustat.eus/about/a_eustat_c.html)
+Para más información visite: [Eustat - Organización](https://www.eustat.eus/about/a_eustat_c.html)
