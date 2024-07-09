@@ -8,4 +8,4 @@ language: eu
 Prentsa Zerbitzua
 ==================
 
-(https://www.eustat.eus/notas_c.html)
+[EUSTAT - Prenstsa Zerbitzua](https://www.eustat.eus/notas_c.html)
