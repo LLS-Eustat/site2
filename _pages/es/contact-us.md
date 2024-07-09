@@ -16,7 +16,6 @@ language: es
 Eustat es el organismo público que desarrolla, produce y difunde información estadística oficial de la C.A. de Euskadi
 
 c/Donostia - San Sebastián, 1
-
 01010 Vitoria-Gasteiz
 
 
