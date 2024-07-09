@@ -5,7 +5,6 @@ permalink: /es/news/
 language: es
 ---
 
-Web Eustat > Novedades
+#Servicio de Prensa
 
-https://www.eustat.eus/novedades.html
-
+https://www.eustat.eus/notas_c.html
