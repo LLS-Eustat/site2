@@ -1,5 +1,5 @@
 ---
-layout: News
+layout: news
 title: Noticias
 permalink: /es/news/
 language: es
