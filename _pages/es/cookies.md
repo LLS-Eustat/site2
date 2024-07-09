@@ -5,8 +5,6 @@ permalink: /es/about/cookies-and-privacy/
 language: es
 ---
 
-Privacidad
-----------
 
 ###1. Tratamiento de datos personales
 ----------------------------------
