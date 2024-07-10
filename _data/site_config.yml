@@ -154,7 +154,6 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-#Orden según Web EUSTAT=> NO; el primero es la página en EN; el segundo en ES
   - en
   - es
   - eu
