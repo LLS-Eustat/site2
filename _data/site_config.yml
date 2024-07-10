@@ -209,9 +209,9 @@ menu:
   - path: /about
     translation_key: menu.about
     dropdown: []
-  - path: /categories
-    translation_key: menu.categories
-    dropdown: []
+  #- path: /categories
+    #translation_key: menu.categories
+    #dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
