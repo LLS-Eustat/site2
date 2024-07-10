@@ -1,7 +1,7 @@
 ---
-layout: Categorías
+layout: Categories
 permalink: /eu/categories/
-title: Categories
+title: Kategoriak
 language: eu
 ---
 

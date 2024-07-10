@@ -1,7 +1,7 @@
 ---
-layout: Categorías
+layout: Categories
 permalink: /es/categories/
-title: Categories
+title: Categorias
 language: es
 ---
 
