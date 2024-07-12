@@ -53,7 +53,7 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: ''
+  phase: 'PoC'
   message: ''
   hidden: false
 email_contacts:
