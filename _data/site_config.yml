@@ -240,7 +240,7 @@ proxy_indicators:
   label: ''
   description: ''
 #Página Web de datos
-remote_data_prefix: 'https://laura-lantaron.github.io/data2'
+remote_data_prefix: 'https://lls-eustat.github.io/data2'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -257,8 +257,8 @@ reporting_status:
       label: status.not_applicable
       hide_on_goal_pages: false
 #Repositorios de datos y site
-repository_url_data: 'https://github.com/laura-lantaron/data2'
-repository_url_site: 'https://github.com/laura-lantaron/site2'
+repository_url_data: 'https://github.com/LLS-Eustat/data2'
+repository_url_site: 'https://github.com/LLS-Eustat/site2'
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
